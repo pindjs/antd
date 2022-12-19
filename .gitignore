@@ -21,6 +21,7 @@ tsconfig.tsbuildinfo
 package/
 package.zip
 .umi
+.dumi
 .umi-production
 .cjsescache
 doc-site

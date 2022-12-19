@@ -1,50 +1,62 @@
-export default {
-  mode: 'site',
-  logo: '//img.alicdn.com/imgextra/i2/O1CN01Kq3OHU1fph6LGqjIz_!!6000000004056-55-tps-1141-150.svg',
-  title: 'Ant Design V5',
+import { defineConfig } from 'dumi'
+
+export default defineConfig({
+  // mode: 'site',
   hash: true,
-  favicon:
-    '//img.alicdn.com/imgextra/i3/O1CN01XtT3Tv1Wd1b5hNVKy_!!6000000002810-55-tps-360-360.svg',
+
   outputPath: './doc-site',
   locales: [
-    ['en-US', 'English'],
-    ['zh-CN', '中文'],
+    {
+      id: 'en-US',
+      name: 'English',
+    },
+    {
+      id: 'zh-CN',
+      name: '中文',
+    },
   ],
-  navs: {
-    'zh-CN': [
-      {
-        title: 'Ant Design V5',
-        path: '/zh-CN/components',
-      },
-      {
-        title: '主站',
-        path: 'https://v2.formilyjs.org/',
-      },
-      {
-        title: 'GITHUB',
-        path: 'https://github.com/formilyjs/antd',
-      },
-    ],
-    'en-US': [
-      {
-        title: 'Ant Design V5',
-        path: '/components',
-      },
-      {
-        title: 'Home Site',
-        path: 'https://formilyjs.org',
-      },
-      {
-        title: 'GITHUB',
-        path: 'https://github.com/alibaba/formily',
-      },
-    ],
+  analyze: {},
+  themeConfig: {
+    logo: '//img.alicdn.com/imgextra/i2/O1CN01Kq3OHU1fph6LGqjIz_!!6000000004056-55-tps-1141-150.svg',
+    name: 'Ant Design V5',
+    favicon:
+      '//img.alicdn.com/imgextra/i3/O1CN01XtT3Tv1Wd1b5hNVKy_!!6000000002810-55-tps-360-360.svg',
+    nav: {
+      'zh-CN': [
+        {
+          title: 'Ant Design V5',
+          link: '/zh-CN/components',
+        },
+        {
+          title: '主站',
+          link: 'https://v2.formilyjs.org/',
+        },
+        {
+          title: 'GITHUB',
+          link: 'https://github.com/formilyjs/antd',
+        },
+      ],
+      'en-US': [
+        {
+          title: 'Ant Design V5',
+          link: '/components',
+        },
+        {
+          title: 'Home Site',
+          link: 'https://v2.formilyjs.org/',
+        },
+        {
+          title: 'GITHUB',
+          link: 'https://github.com/formilyjs/antd',
+        },
+      ],
+    },
   },
 
   headScripts: [
     `
     function loadAd(){
-      var header = document.querySelector('.__dumi-default-layout-content .markdown h1')
+      var header = document.querySelector('.dumi-default-layout-content .markdown h1')
       if(header && !header.querySelector('#_carbonads_js')){
         var script = document.createElement('script')
         script.src = '//cdn.carbonads.com/carbon.js?serve=CEAICK3M&placement=formilyjsorg'
@@ -71,27 +83,31 @@ export default {
     `,
   ],
   styles: [
-    `.__dumi-default-navbar-logo{
+    `
+    .dumi-default-logo {
+      color: transparent !important;
+    }
+    .dumi-default-logo > img {
       height: 60px !important;
       width: 150px !important;
       padding-left:0 !important;
-      color: transparent !important;
+      object-fit: contain;
     }
-    .__dumi-default-navbar{
+    .dumi-default-navbar {
       padding: 0 28px !important;
     }
-    .__dumi-default-layout-hero{
+    .dumi-default-layout-hero {
       background-image: url(//img.alicdn.com/imgextra/i4/O1CN01ZcvS4e26XMsdsCkf9_!!6000000007671-2-tps-6001-4001.png);
       background-size: cover;
       background-repeat: no-repeat;
       padding: 120px 0 !important;
     }
-    .__dumi-default-layout-hero h1{
+    .dumi-default-layout-hero h1 {
       color:#45124e !important;
       font-size:80px !important;
       padding-bottom: 30px !important;
     }
-    .__dumi-default-dark-switch {
+    .dumi-default-dark-switch {
       display:none
     }
     nav a{
@@ -161,4 +177,4 @@ export default {
     }
     `,
   ],
-}
+})

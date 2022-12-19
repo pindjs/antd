@@ -4,19 +4,19 @@
 
 ## Markup Schema 案例
 
-<code src="../demos/form-grid/Markup.zh-CN.tsx"/>
+<code src="../demos/form-grid/Markup.zh-CN.tsx"></code>
 
 ## JSON Schema 案例
 
-<code src="../demos/form-grid/Schema.zh-CN.tsx"/>
+<code src="../demos/form-grid/Schema.zh-CN.tsx"></code>
 
 ## 原生 案例
 
-<code src="../demos/form-grid/Native.zh-CN.tsx"/>
+<code src="../demos/form-grid/Native.zh-CN.tsx"></code>
 
 ## 查询表单实现案例
 
-<code src="../demos/form-grid/QueryForm.zh-CN.tsx"/>
+<code src="../demos/form-grid/QueryForm.zh-CN.tsx"></code>
 
 ## API
 

@@ -4,11 +4,11 @@
 
 ## 普通提交
 
-<code src="../demos/submit/Ordinary.zh-CN.tsx"/>
+<code src="../demos/submit/Ordinary.zh-CN.tsx"></code>
 
 ## 防重复提交(Loading)
 
-<code src="../demos/submit/PreventDuplicate.zh-CN.tsx"/>
+<code src="../demos/submit/PreventDuplicate.zh-CN.tsx"></code>
 
 ## API
 

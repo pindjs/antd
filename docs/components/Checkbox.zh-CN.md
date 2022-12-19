@@ -4,15 +4,15 @@
 
 ## Markup Schema 案例
 
-<code src="../demos/checkbox/Markup.zh-CN.tsx"/>
+<code src="../demos/checkbox/Markup.zh-CN.tsx"></code>
 
 ## JSON Schema 案例
 
-<code src="../demos/checkbox/Schema.zh-CN.tsx"/>
+<code src="../demos/checkbox/Schema.zh-CN.tsx"></code>
 
 ## 纯 JSX 案例
 
-<code src="../demos/checkbox/PureJsx.zh-CN.tsx"/>
+<code src="../demos/checkbox/PureJsx.zh-CN.tsx"></code>
 
 ## API
 

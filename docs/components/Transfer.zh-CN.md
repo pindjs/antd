@@ -4,15 +4,16 @@
 
 ## Markup Schema 案例
 
-<code src="../demos/transfer/Markup.zh-CN.tsx"/>
+<code src="../demos/transfer/Markup.zh-CN.tsx"></code>
 
 ## JSON Schema 案例
 
-<code src="../demos/transfer/Schema.zh-CN.tsx"/>
+<code src="../demos/transfer/Schema.zh-CN.tsx"></code>
 
 ## 纯 JSX 案例
 
-<code src="../demos/transfer/PureJsx.zh-CN.tsx"/>
+<code src="../demos/transfer/PureJsx.zh-CN.tsx"></code>
+
 ## API
 
 参考 <https://ant.design/components/transfer-cn/>

@@ -4,15 +4,15 @@
 
 ## Markup Schema example
 
-<code src="../demos/date-picker/Markup.tsx"/>
+<code src="../demos/date-picker/Markup.tsx"></code>
 
 ## JSON Schema case
 
-<code src="../demos/date-picker/Schema.tsx"/>
+<code src="../demos/date-picker/Schema.tsx"></code>
 
 ## Pure JSX case
 
-<code src="../demos/date-picker/PureJsx.tsx"/>
+<code src="../demos/date-picker/PureJsx.tsx"></code>
 
 ## API
 

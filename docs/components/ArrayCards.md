@@ -237,7 +237,7 @@ import {
   FormButtonGroup,
   Submit,
 } from '@formily/antd'
-import { createForm, onFieldChange, onFieldReact } from '@formily/core'
+import { createForm, onFieldChange, onFieldReact, Field } from '@formily/core'
 import { FormProvider, createSchemaField } from '@formily/react'
 
 const SchemaField = createSchemaField({
@@ -251,7 +251,7 @@ const SchemaField = createSchemaField({
 const form = createForm({
   effects: () => {
     //Active linkage mode
-    onFieldChange('array.*.aa', ['value'], (field, form) => {
+    onFieldChange('array.*.aa', ['value'], (field: Field, form) => {
       form.setFieldState(field.query('.bb'), (state) => {
         state.visible = field.value != '123'
       })

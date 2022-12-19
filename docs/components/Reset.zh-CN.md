@@ -6,19 +6,19 @@
 
 > 有默认值的控件无法被清空
 
-<code src="../demos/reset/Normal.zh-CN.tsx"/>
+<code src="../demos/reset/Normal.zh-CN.tsx"></code>
 
 ## 强制清空重置
 
-<code src="../demos/reset/ForceEmpty.zh-CN.tsx"/>
+<code src="../demos/reset/ForceEmpty.zh-CN.tsx"></code>
 
 ## 重置并校验
 
-<code src="../demos/reset/Verify.zh-CN.tsx"/>
+<code src="../demos/reset/Verify.zh-CN.tsx"></code>
 
 ## 强制清空重置并校验
 
-<code src="../demos/reset/ForceEmptyAndVerfy.zh-CN.tsx"/>
+<code src="../demos/reset/ForceEmptyAndVerfy.zh-CN.tsx"></code>
 
 ## API
 

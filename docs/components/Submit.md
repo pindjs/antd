@@ -4,11 +4,11 @@
 
 ## Ordinary submission
 
-<code src="../demos/submit/Ordinary.tsx"/>
+<code src="../demos/submit/Ordinary.tsx"></code>
 
 ## Prevent Duplicate Submission (Loading)
 
-<code src="../demos/submit/PreventDuplicate.tsx"/>
+<code src="../demos/submit/PreventDuplicate.tsx"></code>
 
 ## API
 

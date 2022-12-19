@@ -6,15 +6,15 @@
 
 ## Markup Schema 案例
 
-<code src="../demos/editable/Markup.zh-CN.tsx"/>
+<code src="../demos/editable/Markup.zh-CN.tsx"></code>
 
 ## JSON Schema 案例
 
-<code src="../demos/editable/Schema.zh-CN.tsx"/>
+<code src="../demos/editable/Schema.zh-CN.tsx"></code>
 
 ## 纯 JSX 案例
 
-<code src="../demos/editable/PureJsx.zh-CN.tsx"/>
+<code src="../demos/editable/PureJsx.zh-CN.tsx"></code>
 
 ## API
 

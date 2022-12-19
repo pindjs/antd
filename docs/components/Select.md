@@ -4,19 +4,19 @@
 
 ## Markup Schema synchronization data source case
 
-<code src="../demos/select/MarkupSync.tsx"/>
+<code src="../demos/select/MarkupSync.tsx"></code>
 
 ## Markup Schema Asynchronous Search Case
 
-<code src="../demos/select/MarkupAsync.tsx"/>
+<code src="../demos/select/MarkupAsync.tsx"></code>
 
 ## Markup Schema Asynchronous Linkage Data Source Case
 
-<code src="../demos/select/MarkupAsyncLinkage.tsx"/>
+<code src="../demos/select/MarkupAsyncLinkage.tsx"></code>
 
 ## JSON Schema synchronization data source case
 
-<code src="../demos/select/SchemaSync.tsx"/>
+<code src="../demos/select/SchemaSync.tsx"></code>
 
 ## JSON Schema asynchronous linkage data source case
 
@@ -121,15 +121,15 @@ export default () => (
 )
 ```
 
-<code src="../demos/select/SchemaAsync.tsx"/>
+<code src="../demos/select/SchemaAsync.tsx"></code>
 
 ## Pure JSX synchronization data source case
 
-<code src="../demos/select/PureJsxSync.tsx"/>
+<code src="../demos/select/PureJsxSync.tsx"></code>
 
 ## Pure JSX asynchronous linkage data source case
 
-<code src="../demos/select/SchemaAsync.tsx"/>
+<code src="../demos/select/SchemaAsync.tsx"></code>
 
 ## API
 

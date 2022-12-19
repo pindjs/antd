@@ -4,7 +4,7 @@
 
 ## Use Cases
 
-<code src="../demos/form/Form.tsx"/>
+<code src="../demos/form/Form.tsx"></code>
 
 <Alert style="margin-top:20px">
 Note: To realize the carriage return submission, we cannot pass the onSubmit event to it when using the Submit component, otherwise the carriage return submission will become invalid. The purpose of this is to prevent users from writing onSubmit event listeners in multiple places at the same time, and processing logic If they are inconsistent, it is difficult to locate the problem when submitting.

@@ -4,15 +4,15 @@
 
 ## Markup Schema example
 
-<code src="../demos/space/Markup.tsx"/>
+<code src="../demos/space/Markup.tsx"></code>
 
 ## JSON Schema case
 
-<code src="../demos/space/Schema.tsx"/>
+<code src="../demos/space/Schema.tsx"></code>
 
 ## Pure JSX case
 
-<code src="../demos/space/PureJsx.tsx"/>
+<code src="../demos/space/PureJsx.tsx"></code>
 
 ## API
 

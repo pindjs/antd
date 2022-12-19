@@ -6,19 +6,19 @@
 
 > Controls with default values cannot be cleared
 
-<code src="../demos/reset/Normal.tsx"/>
+<code src="../demos/reset/Normal.tsx"></code>
 
 ## Force empty reset
 
-<code src="../demos/reset/ForceEmpty.tsx"/>
+<code src="../demos/reset/ForceEmpty.tsx"></code>
 
 ## Reset and verify
 
-<code src="../demos/reset/Verify.tsx"/>
+<code src="../demos/reset/Verify.tsx"></code>
 
 ## Force empty reset and verify
 
-<code src="../demos/reset/ForceEmptyAndVerfy.tsx"/>
+<code src="../demos/reset/ForceEmptyAndVerfy.tsx"></code>
 
 ## API
 

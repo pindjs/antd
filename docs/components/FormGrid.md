@@ -4,19 +4,19 @@
 
 ## Markup Schema example
 
-<code src="../demos/form-grid/Markup.tsx"/>
+<code src="../demos/form-grid/Markup.tsx"></code>
 
 ## JSON Schema case
 
-<code src="../demos/form-grid/Schema.tsx"/>
+<code src="../demos/form-grid/Schema.tsx"></code>
 
 ## Native case
 
-<code src="../demos/form-grid/Native.tsx"/>
+<code src="../demos/form-grid/Native.tsx"></code>
 
 ## Query Form case
 
-<code src="../demos/form-grid/QueryForm.tsx"/>
+<code src="../demos/form-grid/QueryForm.tsx"></code>
 
 ## API
 

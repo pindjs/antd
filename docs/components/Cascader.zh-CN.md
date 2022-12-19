@@ -4,15 +4,15 @@
 
 ## Markup Schema 案例
 
-<code src="../demos/cascader/Markup.zh-CN.tsx"/>
+<code src="../demos/cascader/Markup.zh-CN.tsx"></code>
 
 ## JSON Schema 案例
 
-<code src="../demos/cascader/Schema.zh-CN.tsx"/>
+<code src="../demos/cascader/Schema.zh-CN.tsx"></code>
 
 ## 纯 JSX 案例
 
-<code src="../demos/cascader/PureJsx.zh-CN.tsx"/>
+<code src="../demos/cascader/PureJsx.zh-CN.tsx"></code>
 
 ## API
 

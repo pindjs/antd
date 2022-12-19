@@ -6,15 +6,15 @@
 
 ## Markup Schema example
 
-<code src="../demos/editable/Markup.tsx"/>
+<code src="../demos/editable/Markup.tsx"></code>
 
 ## JSON Schema case
 
-<code src="../demos/editable/Schema.tsx"/>
+<code src="../demos/editable/Schema.tsx"></code>
 
 ## Pure JSX case
 
-<code src="../demos/editable/PureJsx.tsx"/>
+<code src="../demos/editable/PureJsx.tsx"></code>
 
 ## API
 
